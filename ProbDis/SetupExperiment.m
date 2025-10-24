@@ -1,5 +1,6 @@
 % Key parameters, screen setup, and variable initialization.
 function [w, winRect, p] = SetupExperiment()
+    KbName('UnifyKeyNames')
     % Screen setup
     screens = Screen('Screens');
     screenNumber = max(screens);
