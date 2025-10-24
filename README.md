@@ -1,2 +1,2 @@
 # ProbDisTask
-Probability Discounting Task using Psychtoolbox
+Probability Discounting Task using Psychtoolbox in Matlab
