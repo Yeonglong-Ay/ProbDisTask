@@ -36,7 +36,7 @@ function [w, winRect, p] = SetupExperiment()
     % Prepare staircases
     for k = 1:numel(p.probs)
         prob = p.probs(k);
-        tag = Ptag(prob);
+        tag = ptag(prob);
         stairs.S = round(prob * p.A);
         if prob == 0.5, stairs.S = 65; end
         stairs.step = 5; stairs.smallStep = 2;
